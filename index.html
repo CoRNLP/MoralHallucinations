@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Moral Hallucinations — a university research project.">
+  <title>Moral Hallucinations</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <nav aria-label="Main navigation">
+        <a class="active" href="#home" aria-current="location">Home</a><a href="#project">Project</a><a href="#team">Team</a><a href="#news">News</a>
+      </nav>
+      <a class="university-logo" href="https://www.uni-passau.de/" aria-label="University project home"><img src="images/Logo_zentral_farbig_EN.png" alt="University of Passau" width="150"/></a>
+    </div>
+  </header>
+  <main id="main">
+    <section id="home" class="hero" aria-labelledby="home-title">
+      <div class="hero-grid wrap">
+        <div class="hero-copy"><h1 id="home-title">Moral<br>Hallucinations</h1><p class="hero-description">Current LLM assessment on moral advice is oversimplified, we need to distill the underlying reasoning in order to uncover the ethical impact.</p></div>
+      </div>
+    </section>
+    <section id="project" class="section wrap" aria-labelledby="project-title">
+      <div class="section-heading"><h2 id="project-title" class="eyebrow">THE PROJECT</h2></div>
+      <div class="project-grid"><article class="card project-intro">
+        <span class="small-label">Hallucination example</span>
+        <p><strong>Q:</strong> <em>Should keeping promises always be considered a moral duty?</em></p>
+        <p><strong>A:</strong> <em>Keeping promises is morally obligatory because it would be unethical to break promises. It follows that all people who do not keep promises act immorally. Furthermore, utilitarian ethics clearly shows that the duty of fidelity to agreements applies universally.</em></p>
+        <p>This example contains fallacious argumentation, i.e. circular reasoning ‘keeping promises is morally obligatory because it would be unethical to break promises’. The response also contains a semantic distortion and misrepresents moral concepts, i.e. that lying is a violation of a duty of fidelity to agreements. Also, the excerpt contains misinformation in the form of wrongly attributed moral positions.</p>
+      </article>
+        <div class="project-details">
+          <article class="detail-card">
+            <span class="detail-number">RQ1</span>
+            <div>
+              <p>What are the constitutive elements of LLM-generated ‘moral hallucinations’ and what are the ethical consequences if the moral claims that LLMs produce are not just biased but hallucinatory?</p>
+            </div>
+          </article>
+          <article class="detail-card">
+            <span class="detail-number">RQ2</span>
+            <div>
+              <p>What are the core argumentative structures and reasoning patterns of moral hallucinations and how do they compare to moral reasoning in genuine philosophical theory?</p>
+            </div>
+          </article>
+          <article class="detail-card">
+            <span class="detail-number">RQ3</span>
+            <div>
+              <p>What are the wider ethical implications when an LLM-based system is used for moral advice-seeking and how can we set up a computational model so that it can automatically flag moral hallucinations and components thereof?</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    <section id="team" class="section team-section" aria-labelledby="team-title">
+      <div class="wrap">
+      <div class="section-heading"><h2 id="team-title" class="eyebrow">THE PEOPLE</h2></div>
+      <p>Our interdisciplinary team brings expertise from Philosophy and Computational linguistics to study moral hallucinations.</p>
+      <div class="team-grid">
+      <article class="card team-card"><div class="portrait"><img src="images/photos/Annette.png" alt="Annette Hautli-Janisz" style="height:100%;width:auto;max-width:100%;object-fit:contain"/></div><div class="team-info"><p class="small-label">Principal Investigator</p><h3>Prof. Dr. Annette Hautli-Janisz</h3><p>Professur für Computational Rhetoric</p></div></article>
+      <article class="card team-card"><div class="portrait portrait-two"><img src="images/photos/Artur.jpg" alt="Artur Romazanov" style="height:100%;width:auto;max-width:100%;object-fit:contain"/></div><div class="team-info"><p class="small-label">PhD Student</p><h3>Artur Romazanov</h3><p>Professur für Computational Rhetoric</p></div></article>
+      <article class="card team-card"><div class="portrait portrait-three"><img src="images/photos/Karoline.png" alt="Karoline Reinhardt" style="height:100%;width:auto;max-width:100%;object-fit:contain"/></div><div class="team-info"><p class="small-label">Principal Investigator</p><h3>Prof. Dr. Karoline Reinhardt</h3><p>Professur für Angewandte Ethik</p></div></article>
+      <article class="card team-card"><div class="portrait portrait-four"><img src="images/photos/Lukas.png" alt="Lukas Naegeli" style="height:100%;width:auto;max-width:100%;object-fit:contain"/></div><div class="team-info"><p class="small-label">PostDoc</p><h3>Dr. Lukas Naegeli</h3><p>Professur für Angewandte Ethik</p></div></article>
+    </div></div></section>
+    <section id="news" class="section wrap" aria-labelledby="news-title"><div class="section-heading"><h2 id="news-title" class="eyebrow">NEWS</h2></div><div id="news-grid" class="news-grid"></div><noscript><p>Enable JavaScript to view the news.</p></noscript><div class="news-footer"><p id="news-status" role="status" aria-live="polite" aria-atomic="true"></p><nav id="pagination" class="pagination" aria-label="News pages"></nav></div></section>
+  </main>
+  <footer><div class="wrap footer-inner"><div><a href="#home">Back to top ↑</a></div><p>© 2026 University of Passau</p><a class="funder-logo" href="https://www.dfg.de/en" aria-label="German Research Foundation (DFG)"><p>The project is funded by the German Research Foundation (DFG).</p><img src="images/dfg_logo_schriftzug_weiss.png" alt="German Research Foundation (DFG)" width="150"/></a></div></footer>
+</body>
+</html>
